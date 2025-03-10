@@ -21,7 +21,7 @@ open class Car (var brand: String, var power: Double, var price: Double, var pet
     fun Power() {
         when(power) {
             in 1.0..100.0 -> println("Легковой автомобиль")
-            in 100.0..150.0 -> println("автомобиль средней мощности")
+            in 100.0..150.0 -> println("Aвтомобиль средней мощности")
             in 150.0..200.0 -> println("Мощный автомобиль")
             in 200.0..300.0 -> println("Автомобиль высокой мощности")
             in 300.0..500.0 -> println("Очень мощный автомобиль")
